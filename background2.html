@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <h1>I AM PG</h1>
+  <button class="blue" onclick="blue()">BLUE</button>
+  <br>
+  <button class="red" onclick="red()">RED</button>
+  <br />
+<button class="yellow" onclick="yellow()">YELLOW</button>
+<br />
+ <button class="black" onclick="black()">BLACK</button>
+</body>
+<script>
+  function blue(){
+    document.body.style.backgroundColor = "blue";
+  }
+  function red() {
+    document.body.style.backgroundColor="red"
+  }
+  function yellow(){
+    document.body.style.backgroundColor = "yellow"
+  }
+  function black()
+  { document.body.style.backgroundColor = "black"}
+</script>
+<style>
+  body{
+    display:grid;
+    place-items: center;
+  }
+  button{
+    padding: 10px 30px;
+    font-size: 18px;
+    border:3px solid white;
+    border-radius:25px;
+  }
+  button {
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+h1 {
+  color: black;
+  -webkit-text-stroke: 0.8px white;
+  font-size: 40px;
+}
+  
+
+  .red{
+    background-Color:red;
+  }
+  .blue{
+    background-Color:blue;
+  }
+  .yellow{
+    background-Color:yellow;
+  }
+  .black{
+    background-Color:black;
+    color:white;
+  }
+</style>
+</html>

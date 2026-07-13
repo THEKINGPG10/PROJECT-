@@ -1,0 +1,32 @@
+    display:grid;
+    place-items: center;
+  }
+  button{
+    padding: 10px 30px;
+    font-size: 18px;
+    border:3px solid white;
+    border-radius:25px;
+  }
+  button {
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+h1 {
+  color: black;
+  -webkit-text-stroke: 0.8px white;
+  font-size: 40px;
+}
+  
+
+  .red{
+    background-Color:red;
+  }
+  .blue{
+    background-Color:blue;
+  }
+  .yellow{
+    background-Color:yellow;
+  }
+  .black{
+    background-Color:black;
+    color:white;
+  }
