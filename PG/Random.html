@@ -4,11 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title></title
 </head>
-
+ <link rel="stylesheet" href="../random.css" ttype="" />
 <body>
-  
+  <h1>HELLO PG</h1>
+  <button onclick="random()">CLICK ME</button>
 </body>
-
+<script>
+  function random() {
+    let colors = ["red", "blue", "green", "yellow", "purple", "black"];
+    let randomIndex = Math.floor(Math.random() * colors.length);
+    document.body.style.backgroundColor = colors[randomIndex];
+  }
+</script>
 </html>
