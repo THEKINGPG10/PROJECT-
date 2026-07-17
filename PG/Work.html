@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+<h1 id=text >TEXT </h1
+<input type="text" id="userinput">
+<button onclick="textchange()">CLICK ME</button>
+</body>
+ <script>
+   function textchange(){
+     let text = document.getElementById("userinput").value;
+     document.getElementById("text").innerHTML = text;
+     
+   }
+ </script>
+ <style>
+ body{
+   display:grid;
+   place-items: center;
+ }
+ </style>
+</html>
